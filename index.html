@@ -6,11 +6,13 @@
 {
 var link = window.prompt('URL To iFrame?')
 }</script>
-  <iframe id="videoframe" scrolling="yes" height="350" width ="600" src=""></iframe>
+  <iframe id="videoframe" scrolling="yes" src=""></iframe>
 
 <script>
     document.getElementById("videoframe").src =
               link
+  document.getElementById("videoframe").width = '100%'
+  document.getElementById("videoframe").eight = '100%'
 </script>
   </video>
   </div>
